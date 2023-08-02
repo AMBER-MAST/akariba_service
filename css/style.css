@@ -91,6 +91,11 @@ html {
 
 .flex02 {
     display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    width: 730px;
 }
 
 .box img{
