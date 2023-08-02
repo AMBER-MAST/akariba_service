@@ -1,0 +1,142 @@
+@charset "UTF-8";
+
+@media  screen and (max-width: 450px) {
+
+
+    .wrapper {
+        max-width: 350px;
+        margin: 0 auto;
+        padding: 20px 0 40px 0;
+    }
+
+    .grid {
+        display: grid;
+    }
+
+
+    
+
+
+    /*タイトル------------------------------------------------------------*/
+    .top-title {
+        padding: 30px 0;
+    }
+    
+    .top-title img {
+        width: 350px;
+        height: 100px;
+    }
+
+
+
+
+    /*看護タイトル--------------------------------------------------------*/
+    .title-nrs {
+        height: 110px;
+    }
+
+    .nrs-img {
+        width: 170px;
+        height: 110px;
+    }
+
+    .flex h1 {
+        font-size: 35px;
+        margin-right: 0px;
+        margin-top: 35px;
+    }
+
+
+
+    /*看護サービスメニュー-----------------------------------------------*/
+    .nrs-back {
+        padding-bottom: 30px;
+    }
+    .nrs-top img {
+        height: 90px;
+        width: 350px;
+    }
+    .nrs-top {
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+
+    .box img {
+        width: 310px;
+        height: 50px;
+    }
+    .box p {
+        font-size: 18px;
+        padding: 0 10px 25px 40px;
+    }
+
+
+    .nrs-img01 {
+        display: none;
+    }
+
+    .flex03 {
+        display: flex;
+    }
+    .nrs-image img {
+        width: 175px;
+        height: 175px;
+    }
+    .nrs-image {
+        margin-top: 20px;
+    }
+
+
+
+
+
+
+
+    /*リハビリタイトル-------------------------------------------------*/
+    .title-riha {
+        height: 110px;
+    }
+
+    .riha-img {
+        width: 140px;
+        height: 107px;
+    }
+
+
+
+
+    /*リハビリサービス内容-----------------------------------------------*/
+    .riha-back {
+        padding-bottom: 30px;
+    }
+    .riha-top img {
+        width: 350px;
+        height: 120px;
+    }
+
+
+    .riha-img01 {
+        display: none;
+    }
+    .riha-image {
+        display: flex;
+        
+    }
+    .riha-image img {
+        width: 175px;
+        height: 175px;
+    }
+
+
+
+
+
+    a {
+        margin-left: 20px;
+    }
+
+
+
+    
+}
